@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Comm 42</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id = "image-box" >
+		<div id = "start" >
+			<button onclick = "start()"> Turn On </button>
+		</div>
+		<div id = "loading" >
+			<h1>
+				<a href="" class="typewrite" data-period="2000" data-type='[ "LOADING...", "LOADING...","WARNING","NO POWER","LOADING..."]'>
+					<span class="wrap"></span>
+				</a>
+			</h1>
+		</div>
+		<div id = "mainpage" >
+			<button onclick = "scene1()"> Record 1 </button>
+			<button onclick = "scene2()"> Record 2 </button>
+			<button onclick = "scene3()"> Record 3 </button>
+			<button onclick = "scene4()"> Record 4 </button>
+		</div>
+		<div id="soundwave">
+			<img src="image/sound.gif" alt="sound wave">
+		</div>
+		<div id = "guide" >
+			<button onclick = "back()"> Back </button>
+			<button onclick = "replay()"> Replay </button>
+		</div>
+		<img id = "myImage" src="image/start.png" alt="comm42" height = 800px>
+
+	</div>
+
+
+
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
